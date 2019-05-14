@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Les jours les mois</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+
+<ion-content [scrollEvents]="true" (ionScrollStart)="logScrollStart()" (ionScroll)="logScrolling($event)"
+  (ionScrollEnd)="logScrollEnd()">
+
+  <ion-item>Lundi=wan jan วันจันทร์ </ion-item>
+  <ion-item>Mardi = wan angkhan วันอังคาร</ion-item>
+  <ion-item>Mercredi = wan poute วันพุธ</ion-item>
+  <ion-item>Jeudi = wan freuhat วันพฤหัสบดี</ion-item>
+  <ion-item>Vendredi = wan sout วันศุกร์</ion-item>
+  <ion-item>Samedi = wan sao วันเสาร์</ion-item>
+  <ion-item>Dimanche = wan atit วันอาทิตย์</ion-item>
+  <ion-item>aujourd'hui= wan nii วันนี้</ion-item>
+  <ion-item>hier: mo wan เมื่อวาน</ion-item>
+  <ion-item>demain: wan proun nii วันพรุ่งนี้</ion-item>
+  <ion-item>ce matin: chao nii เช้านี้</ion-item>
+  <ion-item>ce soir: yen nii คืนนี้</ion-item>
+  <ion-item>Un jour futur: wanlang</ion-item>
+  <ion-item>Maintenant: tauni ตอนนี้</ion-item>
+  <ion-item>semaine: sap daa tii สัปดาห์ที่</ion-item>
+  <ion-item>mois: duane เดือน</ion-item>
+  <ion-item>années: pii ปี</ion-item>
+  <ion-item>Janvier: makara khom มกราคม</ion-item>
+  <ion-item>Février: koun pa pran: กุมภาพันธ์</ion-item>
+  <ion-item>Mars: miinakhom มีนาคม</ion-item>
+  <ion-item>Avril: mai sas ionne เมษายน</ion-item>
+  <ion-item>Mai: plup sa pa khoom พฤษภาคม</ion-item>
+  <ion-item>Juin: mii tou ma yonne มิถุนายน</ion-item>
+  <ion-item>Juin: mii tou ma yonne มิถุนายน</ion-item>
+  <ion-item>Juillet: karakada khom กรกฎาคม</ion-item>
+  <ion-item>Aout: singh haa khom สิงหาคม</ion-item>
+  <ion-item>Septembre: canne yia yonne กันยายน</ion-item>
+  <ion-item>Octobre: tou la khom ตุลาคม</ion-item>
+  <ion-item>Novembre: plup sa ti kaa yonne พฤศจิกายน</ion-item>
+  <ion-item>Décembre: can waa khom ธันวาคม</ion-item>
+
+  <ion-button expand="full" color="danger" href="./home">retour</ion-button>
+</ion-content>
